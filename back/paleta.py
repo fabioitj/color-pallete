@@ -10,7 +10,7 @@ CORS(app)
 @app.route('/gerar_paleta', methods=['GET'])
 def gerar_paleta():
     # Obtém a quantidade de cores da query string
-    quantidade = int(request.args.get('quantidade'))
+    quantidade = 5
 
     # Lista vazia para armazenar as cores
     cores = []
